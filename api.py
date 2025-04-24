@@ -27,8 +27,6 @@ print('Импорт модели')
 # Создаем новую модель  
 model = whisper.load_model('large')  
 
-# Загружаем состояние модели из файла  
-model.load_state_dict(torch.load('whisper_large_model.pth'))  
 
 print('Модель импортирована')
 
